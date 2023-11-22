@@ -243,7 +243,7 @@ img {
 
 .home__img {
   position: absolute;
-  top: 1.5rem;
+  top: 1.5rem;  
   max-width: initial;
   width: 275px;
   transform: var(--rotate-img);
@@ -428,7 +428,7 @@ img {
 }
 
 .offer__img {
-  width: 153px;
+  width: 303px;
 }
 
 /*===== NEW COLLECTION  =====*/
