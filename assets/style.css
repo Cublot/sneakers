@@ -576,9 +576,15 @@ img {
   .new__mens {
     align-items: center;
   }
+
+  .nav__logo {
+    font-weight: var(--font-semi-bold);
+    font-size: 9px;
+  }
+ 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   body {
     margin: 0;
   }
@@ -610,6 +616,10 @@ img {
 
   .nav__toggle {
     display: none;
+  }
+
+  .nav__logo {
+    font-size: 100px;
   }
 
   .home__container {
@@ -677,4 +687,8 @@ img {
     padding: 4rem 2rem;
   }
 
+  .nav__logo {
+    font-weight: var(--font-semi-bold);
+    font-size: 20px;
+  }
 }
